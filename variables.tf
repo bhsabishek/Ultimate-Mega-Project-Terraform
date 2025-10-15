@@ -31,7 +31,7 @@ variable "az_count" {
 variable "node_types" {
   description = "Instance types for worker nodes"
   type        = list(string)
-  default     = ["t3.medium"]
+  default     = ["m7i-flex.large"]
 }
 
 variable "node_desired" {
